@@ -5,7 +5,8 @@ body {
   justify-content: center;
   align-items: center;
   font-family: "Outfit", sans-serif;
-  color: hsl(30, 10%, 34%)
+  color: hsl(30, 10%, 34%);
+  font-size: 0.85rem;
 }
 
 .container {
@@ -15,6 +16,13 @@ body {
   border-radius: 2rem;
 }
 
+.header-description {
+    margin-bottom: 2rem;
+}
+
+b {
+    font-weight: 700;
+}
 ul,
 ol {
     padding-left: 1.25rem;
@@ -22,7 +30,7 @@ ol {
 
 li {
     margin-block: 0.5rem;
-    padding-left: 0.5rem;
+    padding-left: 1rem;
 }
 
 li::marker {
@@ -30,12 +38,18 @@ li::marker {
 
 }
 
+.section-divider {
+    color: hsl(30, 10%, 34%);
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
 
 
 .prep {
     background-color: hsl(330, 100%, 98%);
     border-radius: 1rem;
-    padding: 0.2rem;
+    padding: 0.3rem;
     padding-left: 1rem;
 }
 
@@ -57,4 +71,24 @@ h2 {
 img {
   max-width: 100%;
   border-radius: 1rem;
+}
+
+table {
+  border-collapse: collapse; /* Crucial step */
+  width: 100%;
+  border-spacing: 10px;
+}
+
+.table-row {
+    border-bottom: 1px solid hsl(30, 10%, 34%);
+    
+}
+
+td {
+   padding: 1rem; 
+}
+
+.amount {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
 }
