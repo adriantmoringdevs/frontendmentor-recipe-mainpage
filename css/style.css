@@ -7,6 +7,8 @@ body {
   font-family: "Outfit", sans-serif;
   color: hsl(30, 10%, 34%);
   font-size: 0.85rem;
+  position: relative;
+  min-height: 100vh;
 }
 
 .container {
@@ -17,55 +19,52 @@ body {
 }
 
 .header-description {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 b {
-    font-weight: 700;
+  font-weight: 700;
 }
 ul,
 ol {
-    padding-left: 1.25rem;
+  padding-left: 1.25rem;
 }
 
 li {
-    margin-block: 0.5rem;
-    padding-left: 1rem;
+  margin-block: 0.5rem;
+  padding-left: 1rem;
 }
 
 li::marker {
-    color: hsl(14, 45%, 36%) 
-
+  color: hsl(14, 45%, 36%);
 }
 
 .section-divider {
-    color: hsl(30, 10%, 34%);
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+  color: hsl(30, 10%, 34%);
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
-
-
 .prep {
-    background-color: hsl(330, 100%, 98%);
-    border-radius: 1rem;
-    padding: 0.3rem;
-    padding-left: 1rem;
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 1rem;
+  padding: 0.3rem;
+  padding-left: 1rem;
 }
 
 .prep-header {
-    color: hsl(332, 51%, 32%)
+  color: hsl(332, 51%, 32%);
 }
 .prep-list {
-    color: hsl(30, 10%, 34%)
+  color: hsl(30, 10%, 34%);
 }
 h1 {
-    font-family: "Young Serif", sans-serif;
+  font-family: "Young Serif", sans-serif;
 }
 
 h2 {
-    font-family: "Young Serif", sans-serif;
-    color: hsl(14, 45%, 36%)
+  font-family: "Young Serif", sans-serif;
+  color: hsl(14, 45%, 36%);
 }
 
 img {
@@ -80,15 +79,19 @@ table {
 }
 
 .table-row {
-    border-bottom: 1px solid hsl(30, 10%, 34%);
-    
+  border-bottom: 1px solid hsl(30, 10%, 34%);
 }
 
 td {
-   padding: 1rem; 
+  padding: 1rem;
+  padding-left: 2.5rem;
 }
 
 .amount {
-    color: hsl(14, 45%, 36%);
-    font-weight: 700;
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}
+
+footer {
+  bottom: 1rem;
 }
